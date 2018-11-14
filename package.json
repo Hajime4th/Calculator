@@ -1,22 +1,53 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^3.0.4"
-  }
+    "name": "Calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "pack": "npx electron-builder --dir",
+        "electron-toolkit": "electron ./node_modules/electron-toolkit",
+        "dist": "npx electron-builder",
+        "publish:win": "build --win -p always --config electron-builder.yml",
+        "publish:mac": "build --mac -p always --config electron-builder.yml",
+        "publish:lin": "build --linux -p always --config electron-builder.yml"
+    },
+    "repository": "https://github.com/hajime4th/Calculator",
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "author": "Hajime <hajime4th@gmail.com>",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^3.0.4",
+        "electron-builder": "^20.34.0",
+        "electron-toolkit": "^1.0.24"
+    },
+    "dependencies": {},
+    "build": {
+        "appId": "com.electron.Calculator",
+        "copyright": "Copyright © 2018 Hajime",
+        "productName": "Calculator",
+        "electronVersion": "3.0.4",
+        "asar": true,
+        "directories": {
+            "app": "/Users/hajime/Desktop/electron-quick-start",
+            "output": "dist"
+        },
+        "mac": {
+            "target": [
+                {
+                    "target": "dmg",
+                    "arch": [
+                        "x64"
+                    ]
+                }
+            ],
+            "category": ""
+        }
+    }
 }
