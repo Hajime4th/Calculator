@@ -1,6 +1,6 @@
 # Calculator
 
-Calculator by Hajime based on Mawuli Kufogbe basic calculator
+Calculator by Hajime based on Mawuli Kufogbe's basic calculator.
 
 
 ## Installation
