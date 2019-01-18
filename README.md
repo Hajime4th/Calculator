@@ -27,6 +27,8 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ![screen](https://user-images.githubusercontent.com/42915482/51388403-f9cfbf80-1b31-11e9-965e-1663aee63724.png)
 
+![capture](https://user-images.githubusercontent.com/42915482/51392145-fcf28d80-1ae8-11e9-8f62-dd34f369e1f6.PNG)
+
 
 
 ## License
