@@ -1,6 +1,8 @@
 # Calculator
 
-Calculator by Hajime based on Mawuli Kufogbe's basic calculator.
+Calculator by Hajime based on Mawuli Kufogbe's basic calculator. 
+
+V1.0.0 - 18 January 2019.
 
 
 ## Installation
@@ -23,7 +25,8 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## Screenshot
 
-![screen shot 2018-11-14 at 3 49 35 pm](https://user-images.githubusercontent.com/42915482/48486926-73db8380-e825-11e8-83d6-97022f16e3c8.png)
+![screen](https://user-images.githubusercontent.com/42915482/51388403-f9cfbf80-1b31-11e9-965e-1663aee63724.png)
+
 
 
 ## License
