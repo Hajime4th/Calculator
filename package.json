@@ -29,13 +29,13 @@
     },
     "dependencies": {},
     "build": {
-        "appId": "com.electron.Calculator",
-        "copyright": "Copyright © 2018 Hajime",
+        "appId": "com.hajime.Calculator",
+        "copyright": "Copyright © 2019 Hajime <hajime4th@gmail.com>",
         "productName": "Calculator",
         "electronVersion": "3.0.4",
         "asar": true,
         "directories": {
-            "app": "/Users/hajime/Desktop/electron-quick-start",
+            "app": "/Users/hajime/Desktop/calculator",
             "output": "dist"
         },
         "mac": {
@@ -47,7 +47,7 @@
                     ]
                 }
             ],
-            "category": ""
+            "category": "public.app-category.utilities"
         }
     }
 }
