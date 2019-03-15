@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css">
     <script>require('./renderer.js')</script>
     <script type="text/javascript" src="./js/calculator.js"></script>
     <script type="text/javascript" src="./js/header.js"></script>
   </head>
        <body>
-            <header>
+            <header class="animated pulse">
                <div id="title-bar">
-               <div id="title">Calculator</div>
                <div id="close-btn">
                <button id="close-btn">X</button></div>
             </header>
-                    <Calculator>
+                    <div class="animated pulse">
                            <div id="background">
                            <div id="result"></div>
                            <div id="main">
                            <div id="first-rows">
                            <button class="del-bg" id="delete">C</button>
-                           <button value="%" class="btn-style operator opera-bg fall-back">%</button>
+                           <button value="%" class="btn-style operator num-bg fall-back">%</button>
                            <button value="+" class="btn-style opera-bg value align operator">+</button></div>
                            <div class="rows">
                            <button value="7" class="btn-style num-bg num first-child">7</button>
@@ -42,8 +41,8 @@
                            <div class="rows">
                            <button value="0" class="num-bg zero" id="delete">0</button>
                            <button value="." class="btn-style num-bg period fall-back">.</button>
-                           <button id="eqn-bg" class="eqn align"><img src="./img/eqn.png"></button>
+                           <button id="eqn-bg" class="eqn align">=</button>
                            </div></div></div>
-                  </Calculator>
+                  </div>
             </body>
        </html>
